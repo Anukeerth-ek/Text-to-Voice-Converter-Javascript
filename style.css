@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+  
+    font-family: helvetica;
+}
+.flex {
+    display: flex;
+    align-items: center;
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 30px ;
+    background-color: black;
+    color: #fff;
+    
+
+}
+.nav-container img {
+    max-width: 150px;
+    max-height: 50px;
+}
+.nav-about ul{
+    display: flex;
+    list-style: none;
+}
+.nav-about li {
+    margin-left: 2.5rem;
+}
+.nav-about li:hover {
+    color: #756cf5;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+   
+}
+.nav-form :first-child{
+    padding: 8px 2rem;
+    background: transparent;
+    border: 1px solid #756cf5;
+    border-radius: 10px;
+    color: #756cf5;
+    margin-right: 8px;
+}
+.nav-form :first-child:hover {
+    transition: all 0.3s ease-in-out;
+    background-color: #756cf5;
+    color: #fff;
+    cursor: pointer;
+    
+}
+.nav-form :last-child {
+    padding: 8px 2rem;
+    border: 1px solid #756cf5;
+    border-radius: 10px;
+    color: #fff;
+    background-color: #756cf5;
+    font-weight: 500;
+}
+.nav-form :last-child:hover {
+    background-color: #000;
+    color: #756cf5;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+.container {
+    height: 88vh;
+    
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+
+    background-color: #f1eeee;
+ 
+    
+}
+.wrapper {
+    margin-bottom: 90px;
+}
+.container h2 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    
+}
+.container h2 {
+    color: #000;
+}
+.container h2 span {
+    color: #ff2963;
+}
+.container textarea {
+    width: 600px;
+    height: 250px;
+    background-color: #81a4ae42;
+    padding: 14px 0 0 8px;
+    border: none;
+    outline: none;
+    margin-bottom: 1rem;
+}
+.container textarea::placeholder {
+    font-size: 1.1rem;
+    color: #222;
+}
+.row {
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+select {
+    flex: 1;
+    color: #444;
+    background-color: #81a4ae77;
+    height: 50px;
+    padding: 0 30px;
+    outline: 0;
+    border: 0;
+    border-radius: 35px;
+    
+}
+.row button {
+    background-color: #ff2963;
+    color: #fff;
+    font-size: 1rem;
+    padding: 10px 30px;
+    border-radius: 35px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+
+}
